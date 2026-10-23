@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "pl.zrubmoda.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ItemRendererMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
