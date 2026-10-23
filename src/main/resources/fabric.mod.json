@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "zrub_moda",
+  "version": "${version}",
+  "name": "Zrub Moda",
+  "description": "Client-side item appearance overrides for Minecraft 1.21.4.",
+  "authors": ["Zrub Moda"],
+  "environment": "client",
+  "entrypoints": { "client": ["pl.zrubmoda.ZrubModaClient"] },
+  "mixins": ["zrub_moda.mixins.json"],
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.4", "java": ">=21", "fabric-api": "*" }
+}
