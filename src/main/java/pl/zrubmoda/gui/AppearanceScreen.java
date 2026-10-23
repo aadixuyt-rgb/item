@@ -21,6 +21,7 @@ public final class AppearanceScreen extends Screen {
     private Item selectedTarget;
     private Item sourceItem;
     private String language = "PL";
+    private ButtonWidget languageButton;
     private ButtonWidget modeButton;
     private ButtonWidget clearButton;
     private static final int ROWS = 7;
